@@ -6,6 +6,9 @@
 - The folder Dataset in the repo is the output of Dataset_Creater.ipynb Notebook.
 - The Dataset_Creater.ipynb notebook preprocess the datasets of COVID Positive and Negative cases to generate the final Dataset for our model.
 - The Dataset folder is then finally divided in training and validation sets and uploaded at this dropbox [link](http://cb.lk/covid_19).
-- COVID_19_Detector.ipynb Notebook is our CNN based detector which gives a accuracy of nearly 96%.
+- COVID_19_Detector.ipynb Notebook is our CNN based detector.
+- The Positive samples are mapped to 0 and Negative samples are mapped to 1. 
+- These samples are then Augmented to generate more samples.
+- It gives nearly 96% accuracy. 
 
 
